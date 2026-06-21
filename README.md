@@ -1,137 +1,93 @@
- <h1 align="center">Terminal-01</h1> 
+<h1 align="center">Macropad</h1> 
 <div align="center">         
 <p align="center">
+A compact 6-key custom macropad featuring a rotary encoder, mechanical switches, a custom PCB, and a 3D-printed case to streamline your workflow.
+</p>
 
- <img width="881" height="598" alt="5-Photoroom" src="https://github.com/user-attachments/assets/2d643ba3-173a-47c6-ab77-f8a0cca7c4d4" />
-
-A compact clock and timer with a surprise of gaming abilities for when its needed, with a custom 3d printed case and a minimalistic theme. </p>
-
-
-        
 <h1 align="center">Overview</h1>
-
         
-<p align="center">This project is a custom retro tabletop built around the esp32 c3 supermini. It includes a vibrant 1.8-inch TFT LCD display, Type-C charging module with inbuilt protection, a rotary encoder module with push button as well, a speaker, some jumper cables and a battery ofc. 
-
+<p align="center">This project is a custom desktop macropad built around the compact but powerful RP2040-Zero. It includes 6 Cherry MX Red mechanical switches for satisfying tactile inputs, a KY-040 rotary encoder for volume or scroll control, a custom-designed PCB, and a sleek 3D-printed two-part enclosure. 
 
 <h1 align="center">Why am I even building this?</h1>
 <p align="center">
- 
- I built this project as a part of an event called [Fallout](https://fallout.hackclub.com), organized by an non-profit organization called [Hack Club](https://hackclub.com), we build and ship hardware projetcs and for that we get some cool gifts and grants to build it irl. After building hardware projects for 60 hours, we get invited to Shenzen, China on a Hardware Hackathon, I am building this project to work toward those 60 hours.
- 
+ I built this project as a part of an event called <a href="https://fallout.hackclub.com">Fallout</a>, organized by a non-profit organization called <a href="https://hackclub.com">Hack Club</a>. We build and ship hardware projects, and for that, we get some cool gifts and grants to build it IRL. After building hardware projects for 60 hours, we get invited to Shenzhen, China for a Hardware Hackathon. I am building this project to work toward those 60 hours.
  </p>
 
-<h1 align="center">Why Terminal-01?</h1>
+<h1 align="center">Why Macropad?</h1>
 
-So I spend a lot of time on my desk and frequently use a dekstop [Pomodoro timer](https://en.wikipedia.org/wiki/Pomodoro_Technique) app to help me navigate my work/study sessions, I also use a physical clock for seeing time ofc and have nothing really to do in my breaks which wont distract me too much.
-I created this project  (which is also my first hardware project) for solving all these problems and  help myself getting [supercalifragilisticexpialidocious](https://en.wikipedia.org/wiki/Supercalifragilisticexpialidocious) in building super cool hardware things. 
+So I spend a lot of time at my desk doing coding, editing, and general productivity tasks. I frequently need quick access to specific shortcuts, media controls, and repetitive keystrokes that are tedious to execute on a standard keyboard. I created this project (which is also my first custom PCB hardware project) to solve these problems and help myself get supercalifragilisticexpialidocious in building super cool hardware things while optimizing my workflow. 
 
 <h1 align="center">The Features</h1>
 </div>
 
-1. Real-Time Clock: Displays an automatically synchronizing NTP time feed maintained by background Wi-Fi checks, featuring a persistent on-screen icon.
+1. **6 Programmable Keys**: Features 6 Cherry MX Red linear mechanical switches for smooth, fast, and customizable keystrokes (copy/paste, media navigation, macro strings, etc.).
+2. **Rotary Encoder**: Includes a built-in KY-040 rotary encoder with a push-button function, perfect for controlling system volume, zooming, or scrolling through timelines.
+3. **Custom PCB**: A clean, purpose-built printed circuit board routing the switches and encoder directly to the RP2040-Zero.
+4. **RP2040-Zero Brains**: Powered by the compact Raspberry Pi RP2040-Zero microcontroller, ensuring fast response times and easy programmability.
+5. **3D Printed Enclosure**: A custom-designed two-part (top and bottom) FDM 3D-printed case to keep the electronics safe and look great on a desk.
 
-2. System Alarm: Offers an adjustable interface for setting daily alarms, triggering full-screen flashing visuals and audio sirens when activated.
-
-3. Productivity Timer: Includes a Pomodoro focus timer that alerts users with an aggressive flashing visual and buzzer when a work session completes.
-
-4. Gaming Console: Features a playable "Space Attack" arcade game with programmatic retro sound effects and dynamic boundary collision.
-
-5. Screensaver: Displays a bouncing DVD logo that allows for real-time kinetic speed adjustment using the rotary encoder wheel.
 <div align="center">   
  
 # Repository Contents
 
 | Path | What it contains |
 | --- | --- |
-| [`3D Case Files/STEP Files`](https://github.com/Ragh7av/Terminal-01/tree/main/CAD) | Editable STEP files for 3d printing the enclosure and assembly |
-| [`Firmware`](https://github.com/Ragh7av/Terminal-01/tree/main/Firmware) | Editable C++ code for the project |
-| [`Licence`](https://github.com/Ragh7av/Terminal-01/blob/main/LICENSE) | MIT Licence |
-| [`BOM`](https://github.com/Ragh7av/Terminal-01/tree/main/BOM) | CSV and XLSX versions of the bill of materials |
-| [`Zine.pdf`](Zine/Zine.pdf)/ [`Zine.png`](Zine/Zine.png)  | Project zine in PDF and image form |
-| [`wiring diagram`](https://github.com/Ragh7av/Terminal-01/tree/main/Wiring%20diagram) | Color coded diagram for connecting the wires |
-
-
-# 3d render of the assembly
-
-<img width="744" height="775" alt="t1 1 right" src="https://github.com/user-attachments/assets/e2dd0b2b-359b-4211-ba6c-3b8c67448e5f" />
-<img width="1372" height="760" alt="t1 1 back" src="https://github.com/user-attachments/assets/877184fc-3219-41e4-a6a3-05bd65cc9609" />
-<img width="1154" height="615" alt="t-1 1 front" src="https://github.com/user-attachments/assets/51354a61-88d5-496c-96b3-dd11af59533c" />
-<img width="1301" height="750" alt="t1 1 top" src="https://github.com/user-attachments/assets/54ddef35-7762-4fa6-b4d5-7010b2984853" />
-<img width="928" height="757" alt="t1 1 left" src="https://github.com/user-attachments/assets/1c52db39-b2e2-4048-98c4-e2e3b4142f04" />
-<img width="1181" height="741" alt="t1 1 pverview" src="https://github.com/user-attachments/assets/2d40dd26-453f-41a1-9229-020b8603d807" />
-
-
-# Case
-
-<img width="1317" height="746" alt="t-1 2 back" src="https://github.com/user-attachments/assets/d0e61939-db62-4721-879d-d2a159d6ebae" />
-<img width="1062" height="632" alt="t-1 2 front" src="https://github.com/user-attachments/assets/58f2f86e-5d25-4d02-8926-fcaaab9d4fa9" />
-<img width="965" height="528" alt="t-1 2 top" src="https://github.com/user-attachments/assets/44aee3d8-b07b-4caa-a4e2-eab0cca9a996" />
-<img width="1089" height="545" alt="t-1 2 overview" src="https://github.com/user-attachments/assets/417eb2f1-792f-44f3-8148-893bd5c1ddc7" />
-<img width="695" height="617" alt="t-1 2 right" src="https://github.com/user-attachments/assets/c5dcdf25-a576-42f3-8697-03767a15c0cb" />
-
-
-# The Zine page (for featuring in a hackclub magazine)
-<img width="486" height="749" alt="Zine" src="https://github.com/user-attachments/assets/d6e0b8f0-66f6-477e-a657-17be8239d955" />
+| [`3D_PRINTS`](https://github.com/Ragh7av/Macropad/tree/main/3D_PRINTS) | Editable CAD/STL files for 3D printing the top and bottom enclosure halves |
+| [`ASSEMBLY`](https://github.com/Ragh7av/Macropad/tree/main/ASSEMBLY) | Files related to the mechanical assembly of the macropad |
+| [`BOM`](https://github.com/Ragh7av/Macropad/tree/main/BOM) | Bill of materials details and cost breakdowns |
+| [`FIRMWARE`](https://github.com/Ragh7av/Macropad/tree/main/FIRMWARE) | Firmware code (C++/CircuitPython/KMK) to program the keys and encoder |
+| [`GERBERS`](https://github.com/Ragh7av/Macropad/tree/main/GERBERS) | Ready-to-manufacture Gerber files for fabricating the PCB |
+| [`IMAGES`](https://github.com/Ragh7av/Macropad/tree/main/IMAGES) | Photos and screenshots of the project |
+| [`PCB`](https://github.com/Ragh7av/Macropad/tree/main/PCB) | KiCad schematic and PCB layout files |
+| [`RESOURCES`](https://github.com/Ragh7av/Macropad/tree/main/RESOURCES) | Additional project assets and references |
+| [`ZINE`](https://github.com/Ragh7av/Macropad/tree/main/ZINE) | Project zine documentation |
 
 </div>
 
-# The components used- 
+# The Components Used
 
-1. ESP32-C3 Super Mini USB C-Type Development Board (Yes this will have wifi capabilities and will sink time automatically)
+1. RP2040-Zero (Raspberry Pi Microcontroller)
 2. KY-040 Rotary Encoder Module
-3. 3.7V 2500mAh 18650 Lithium Ion Rechargeable Battery
-4. Tp4056 1A Lithium Battery Charging Protection Board Module Type C Usb Interface To 4.2V
-5. 8 Ohm 0.5 Watt Speaker-40mm
-6. 1.8-inch TFT LCD Module
-7. Jumper cables
+3. Cherry MX RED mechanical switches (x6)
+4. PBT DSA Blank Keycaps for MX Switches (x6)
+5. Custom Printed Circuit Board (PCB)
+6. 3D Printed Case (Top and Bottom halves)
 
-# Bill of materials-
-| Product Name | Product Link | Quantity | Base Price | Tax (18%) | Shipping Share (flat shipping) | Total Cost |
-| --- | --- | --- | --- | --- | --- | --- |
-| ESP32 Type-C 38 Pin Dev Board – Dual Core WiFi+BT | [Link](https://robosap.in/product/esp32-type-c-38-pin-dev-board-dual-core-wifibt/) | 1 | ₹335.00 | ₹60.30 | ₹14.29 | ₹409.59 |
-| KY-040 Rotary Encoder Module | [Link](https://robosap.in/product/rotary-encoder-module-for-arduino/) | 1 | ₹51.00 | ₹9.18 | ₹14.29 | ₹74.47 |
-| 3.7V 2500mAh 18650 Lithium Ion Rechargeable Battery | [Link](https://robosap.in/product/3-7v-2500mah-18650-lithium-ion-rechargeable-battery/) | 1 | ₹68.00 | ₹12.24 | ₹14.29 | ₹94.53 |
-| Tp4056 1A Lithium Battery Charging Protection Board Module Type C Usb Interface To 4.2V | [Link](https://robosap.in/product/tp4056-1a-lithium-battery-charging-protection-board-module-type-c-usb-interface-to-4-2v/) | 1 | ₹16.00 | ₹2.88 | ₹14.29 | ₹33.17 |
-| 8 Ohm 0.5 Watt Speaker-40mm | [Link](https://robosap.in/product/8-ohm-0-5-watt-speaker-40mm/) | 1 | ₹45.00 | ₹8.10 | ₹14.29 | ₹67.39 |
-| 1.8-inch TFT LCD Module | [Link](https://robosap.in/product/1-8-inch-tft-spi-lcd-display-module/) | 1 | ₹280.00 | ₹50.40 | ₹14.29 | ₹344.69 |
-| Jumper cables | [Link](https://robosap.in/product/jumper-wire-set-of-male-to-male-male-to-female-and-female-to-female/) | 1 | ₹150.00 | ₹27.00 | ₹14.29 | ₹191.29 |
-| **Total** |  |  | **₹945.00** | **₹170.10** | **₹100.00** | **₹1,215.10** |
+# Bill of Materials
 
-# The wiring diagram-
-<img width="1920" height="1080" alt="Untitled design" src="https://github.com/user-attachments/assets/e9aeb7bc-977b-47e6-9933-fbc74801f3eb" />
+| Component Name | Quantity | Price (₹) | Total Cost (₹) | Shipping (₹) | Total Price (₹) |
+| --- | --- | --- | --- | --- | --- |
+| PCB (Robu PCB Manufacturing) | 1 | ₹180 | ₹900 | ₹49 | ₹949 |
+| Keycaps for MX keys (ATORSE 12Pcs Blank) | 6 | ₹52.25 | ₹627 | Free | ₹627 |
+| Cherry MX RED mechanical keys | 6 | ₹44.9 | ₹449 | Free | ₹449 |
+| Raspberry Pi RP2040 Zero | 1 | ₹235 | ₹235 | ₹24.5 | ₹259.5 |
+| KY-040 Rotary encoder | 1 | ₹59 | ₹59 | ₹24.5 | ₹83.5 |
+| Case bottom half (at 40% infill) | 1 | ₹159 | ₹159 | ₹49.5 | ₹208.5 |
+| Case top half (at 40% infill) | 1 | ₹90 | ₹90 | ₹49.5 | ₹139.5 |
+| **Subtotal** | | | **₹2519** | **₹197** | **₹2716** |
 
+# Wiring / Schematic
+The wiring is heavily simplified thanks to the custom PCB! 
+* **Switches (SW1 - SW6)** are connected directly to the RP2040-Zero GPIO pins. 
+* **The Rotary Encoder (KY-040)** connects its Clock (CLK), Data (DT), and Switch (SW) pins to the designated GPIOs on the RP2040, utilizing the 3V3 power and GND lines. 
 
+*(Check the `PCB` folder in the repository for the full KiCad schematic.)*
 
 # How to Build it?
 
-**To replicate , follow the below mentioned steps:**
-1) First, go grab the CAD from the CAD folder..or you can download the files from [here](https://github.com/Ragh7av/Terminal-01/tree/main/CAD/CAD%20files). I prefer going to the CAD folder and go through the CAD.md for detailed understanding of the CAD.
-2) Then grab the parts mentioned in the [BOM](https://github.com/Ragh7av/Terminal-01/blob/main/BOM/BOM.csv)..
-3) Wire up the electronics as per the [Circuit Diagram](https://github.com/Ragh7av/Terminal-01/blob/main/Wiring-diagram/Wiring%20diagram%20for%20Terminal-01%20%20%20(1).png).
-4) Then upload the code from [here](https://github.com/Ragh7av/Terminal-01/blob/main/Firmware/Firmware.ino) in your ESP.
-5) Check if everything is working properly.If yes then proceed to next step or check previous steps again.
-6) Then assemble everything in the 3D shell as per the completely assemble .step file of the CAD
+**To replicate, follow the steps below:**
+1) First, grab the PCB Gerber files from the `GERBERS` folder and send them to your preferred PCB manufacturer (like Robu, JLCPCB, etc.).
+2) Next, grab the 3D models from the `3D_PRINTS` folder and print the top and bottom case halves (recommended 40% infill for a solid feel).
+3) Purchase the parts mentioned in the **BOM**.
+4) Solder the RP2040-Zero, Cherry MX switches, and the rotary encoder onto your fabricated PCB.
+5) Flash the firmware from the `FIRMWARE` folder onto your RP2040-Zero via USB-C.
+6) Test the keys and encoder on your computer to ensure all keystrokes register. 
+7) Assemble the PCB into the 3D-printed shell, pop on your keycaps, and secure everything together!
 
-*Hurrahh!!You replicated Terminal-01*
+*Hurrahh!! You replicated the Macropad!*
 
-
-  ## Firmware setup
-  - Replace "Your_wifi" and "pass" with your personal network details (keep the quotation marks).
-  - Set Your Local Time Zone by finding the time offset line in the code which looks like-
-   '''const long gmtOffset_sec = 19800;'''
-  If you are in India (IST), leave it at 19800 (5.5 hours × 3600 seconds).
-  If you are in a different time zone, multiply your GMT/UTC offset hours by 3600 and enter that value.
-   - Upload to Board: Connect your ESP32-C3 SuperMini via a USB-C cable, select the correct Port under Tools > Port, and click the Upload arrow button.
-
-
-
-</p>
-
-
-
- <h1>Inspirations</h1> 
- https://github.com/DjukicAleksej/Biblically-Accurate-USB-Hub/?tab=readme-ov-file For repository documentation.
- https://youtu.be/nUozTo_dhss?si=LCkojv6oHQSe04vr for the UI and Firmware.
- 
+## Firmware setup
+ - Connect your RP2040-Zero to your computer via USB-C.
+ - If using Arduino IDE: Select the appropriate RP2040 board under Tools > Board, select the Port, compile, and click Upload.
+ - Customize your keybindings in the firmware code to map to your preferred macros, shortcuts, or media controls before uploading.
 
