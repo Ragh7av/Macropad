@@ -1,0 +1,123 @@
+Cmp-Mod V01 Created by PcbNew   date = 2026-06-19T13:14:11
+
+BeginCmp
+TimeStamp = cfe34832-69e7-40a9-92fd-8a274ed3d2fc
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = LOGO;
+EndCmp
+
+BeginCmp
+TimeStamp = 29017322-d3ec-4ec8-ada0-632d9b3e47ec
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = LOGO;
+EndCmp
+
+BeginCmp
+TimeStamp = 1b437ed5-89f5-4233-9235-def7459d652d
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = LOGO;
+EndCmp
+
+BeginCmp
+TimeStamp = 753eaaf5-d20a-48bc-8927-69e89743cecb
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = LOGO;
+EndCmp
+
+BeginCmp
+TimeStamp = a99bd67d-7a2e-46a3-99e3-cad7b167ac09
+Path = /d39762f1-73b4-4073-bf01-a491ff1872cb
+Reference = U2;
+ValeurCmp = KY-040;
+IdModule  = footprints:KY-040-PORT;
+EndCmp
+
+BeginCmp
+TimeStamp = b10df459-dc95-4715-981c-bfd1fec2bc7b
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_2.2mm_M2;
+IdModule  = MountingHole:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = d37d6f50-8246-4049-a69a-20c8da6173e2
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_2.2mm_M2;
+IdModule  = MountingHole:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 7f52d047-2c49-406b-9c4c-cb8a8af9b006
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_2.2mm_M2;
+IdModule  = MountingHole:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = a1a24739-6cad-4ef3-a512-b66724b5f3bf
+Path = /27423036-1496-4869-bc33-48a96c9d7229
+Reference = SW3;
+ValeurCmp = SW_Push;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = c112f4c1-825d-4013-97af-1b0f81030d9a
+Path = /a2e6320a-426e-433f-b2c2-802920a75095
+Reference = SW2;
+ValeurCmp = SW_Push;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5e955d4b-e95c-40bb-a395-f6746d628f1e
+Path = /83f25703-0f78-4c5f-aac2-452867b01cef
+Reference = SW1;
+ValeurCmp = SW_Push;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = e129e8e6-ca34-493f-a414-844dbb27b2e8
+Path = /d5521c1b-1990-4176-9c58-448d99e6318a
+Reference = SW6;
+ValeurCmp = SW_Push;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = 52282476-ea35-4f01-af15-10f3f3af2168
+Path = /f658b425-1914-4831-8147-9219e4e35259
+Reference = SW5;
+ValeurCmp = SW_Push;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = 902f1624-113a-44e2-8bdf-4c7b44e8ae00
+Path = /89da5c26-2acd-400f-b5df-390b2a16fa24
+Reference = SW4;
+ValeurCmp = SW_Push;
+IdModule  = Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB;
+EndCmp
+
+BeginCmp
+TimeStamp = f2e92564-22d4-43e8-8117-b68ff4f0f6e2
+Path = /5ad4e3cd-6ee7-45e8-a38c-0553ffa1c0f2
+Reference = U3;
+ValeurCmp = RP2040-ZERO;
+IdModule  = footprints:FP_RP2040;
+EndCmp
+
+EndListe
