@@ -39,7 +39,6 @@ So I spend a lot of time at my desk doing coding, editing, and general productiv
 | [`GERBERS`](https://github.com/Ragh7av/Macropad/tree/main/GERBERS) | Ready-to-manufacture Gerber files for fabricating the PCB |
 | [`IMAGES`](https://github.com/Ragh7av/Macropad/tree/main/IMAGES) | Photos and screenshots of the project |
 | [`PCB`](https://github.com/Ragh7av/Macropad/tree/main/PCB) | KiCad schematic and PCB layout files |
-| [`RESOURCES`](https://github.com/Ragh7av/Macropad/tree/main/RESOURCES) | Additional project assets and references |
 | [`ZINE`](https://github.com/Ragh7av/Macropad/tree/main/ZINE) | Project zine documentation |
 
 </div>
