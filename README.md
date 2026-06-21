@@ -1,6 +1,8 @@
 <h1 align="center">Macropad</h1> 
 <div align="center">         
 <p align="center">
+        <img width="901" height="511" alt="Screenshot 2026-06-20 013946" src="https://github.com/user-attachments/assets/0823a802-4e49-4903-9cd2-da801dc07f28" />
+
 A compact 6-key custom macropad featuring a rotary encoder, mechanical switches, a custom PCB, and a 3D-printed case to streamline your workflow.
 </p>
 
@@ -65,12 +67,10 @@ So I spend a lot of time at my desk doing coding, editing, and general productiv
 | Case top half (at 40% infill) | 1 | ₹90 | ₹90 | ₹49.5 | ₹139.5 |
 | **Subtotal** | | | **₹2519** | **₹197** | **₹2716** |
 
-# Wiring / Schematic
-The wiring is heavily simplified thanks to the custom PCB! 
-* **Switches (SW1 - SW6)** are connected directly to the RP2040-Zero GPIO pins. 
-* **The Rotary Encoder (KY-040)** connects its Clock (CLK), Data (DT), and Switch (SW) pins to the designated GPIOs on the RP2040, utilizing the 3V3 power and GND lines. 
+#  Schematic
+<img width="1135" height="802" alt="Screenshot 2026-06-20 071409" src="https://github.com/user-attachments/assets/4cb8c0be-a65d-4fc0-900d-11ed79619b9e" />
 
-*(Check the `PCB` folder in the repository for the full KiCad schematic.)*
+
 
 # How to Build it?
 
