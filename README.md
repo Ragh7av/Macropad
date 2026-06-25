@@ -34,6 +34,10 @@ A custom 6-key custom macropad with a rotary encoder, Cherry MX red mechanical s
 
 So I spend a lot of time at my desk doing coding, editing, and general productivity tasks. I frequently need quick access to specific shortcuts, media controls, and repetitive keystrokes that are tedious to execute on a standard keyboard. I created this project  to solve these problems and help myself get supercalifragilisticexpialidocious in building super cool hardware things while optimizing my workflow. 
 
+
+# Zine 
+<img width="972" height="1498" alt="Zine" src="https://github.com/user-attachments/assets/b50946db-bb31-41ac-9980-1292ca70d2d9" />
+
 # Printed Circuit Board (PCB)
 <img width="971" height="743" alt="Screenshot 2026-06-26 000245" src="https://github.com/user-attachments/assets/02853779-7786-4a73-9b53-1997e27afc15" />
 <img width="901" height="1218" alt="Screenshot 2026-06-19 184742" src="https://github.com/user-attachments/assets/74055cd5-8187-4b33-90cc-c5799737afd4" />
