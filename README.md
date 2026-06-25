@@ -103,7 +103,7 @@ So I spend a lot of time at my desk doing coding, editing, and general productiv
 6) Test the keys and encoder on your computer to ensure all keystrokes register. 
 7) Assemble the PCB into the 3D-printed shell, pop on your keycaps, and secure everything together!
 
-*Hurrahh!! You replicated the Macropad!*
+*YAYYYYY!! You replicated the Macropad and you're almost as cool as me!*
 
 ## Firmware setup
  - Connect your RP2040-Zero to your computer via USB-C.
