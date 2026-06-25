@@ -3,12 +3,27 @@
 <p align="center">
         <img width="901" height="511" alt="Screenshot 2026-06-20 013946" src="https://github.com/user-attachments/assets/0823a802-4e49-4903-9cd2-da801dc07f28" />
 
-A compact 6-key custom macropad featuring a rotary encoder, mechanical switches, a custom PCB, and a 3D-printed case to streamline your workflow.
+A custom 6-key custom macropad with a rotary encoder, Cherry MX red mechanical switches, a custom PCB, and a 3D-printed case to take your workflow to the next level.
 </p>
 
 <h1 align="center">Overview</h1>
         
-<p align="center">This project is a custom desktop macropad built around the compact but powerful RP2040-Zero. It includes 6 Cherry MX Red mechanical switches for satisfying tactile inputs, a KY-040 rotary encoder for volume or scroll control, a custom-designed PCB, and a sleek 3D-printed two-part enclosure. 
+<p align="center">This project is a custom desktop macropad built around the RP2040-Zero. It includes 6 Cherry MX Red mechanical switches for satisfying tactile sounds while clocking, a KY-040 rotary encoder for volume or scroll control, a custom-designed PCB, and a sleek 3D-printed two-part enclosure. 
+
+# Repository Contents
+
+| Path | What it contains |
+| --- | --- |
+| [`3D_PRINTS`](https://github.com/Ragh7av/Macropad/tree/main/3D_PRINTS) | STL files for quick access to 3D printing the top and bottom enclosure halves |
+| [`ASSEMBLY`](https://github.com/Ragh7av/Macropad/tree/main/ASSEMBLY) | Files related to the mechanical assembly of the macropad |
+| [`BOM`](https://github.com/Ragh7av/Macropad/tree/main/BOM) | Bill of materials details and cost breakdowns |
+| [`FIRMWARE`](https://github.com/Ragh7av/Macropad/tree/main/FIRMWARE) | Firmware code (C++/CircuitPython/KMK) to program the keys and encoder |
+| [`GERBERS`](https://github.com/Ragh7av/Macropad/tree/main/GERBERS) | Ready-to-manufacture Gerber files for fabricating the PCB |
+| [`IMAGES`](https://github.com/Ragh7av/Macropad/tree/main/IMAGES) | Photos and screenshots of the project |
+| [`PCB`](https://github.com/Ragh7av/Macropad/tree/main/PCB) | KiCad schematic and PCB layout files |
+| [`ZINE`](https://github.com/Ragh7av/Macropad/tree/main/ZINE) | Project zine documentation |
+| [`CAD`](CAD) | Project 3D models |
+
 
 <h1 align="center">Why am I even building this?</h1>
 <p align="center">
@@ -17,31 +32,37 @@ A compact 6-key custom macropad featuring a rotary encoder, mechanical switches,
 
 <h1 align="center">Why Macropad?</h1>
 
-So I spend a lot of time at my desk doing coding, editing, and general productivity tasks. I frequently need quick access to specific shortcuts, media controls, and repetitive keystrokes that are tedious to execute on a standard keyboard. I created this project (which is also my first custom PCB hardware project) to solve these problems and help myself get supercalifragilisticexpialidocious in building super cool hardware things while optimizing my workflow. 
+So I spend a lot of time at my desk doing coding, editing, and general productivity tasks. I frequently need quick access to specific shortcuts, media controls, and repetitive keystrokes that are tedious to execute on a standard keyboard. I created this project  to solve these problems and help myself get supercalifragilisticexpialidocious in building super cool hardware things while optimizing my workflow. 
+
+# Printed Circuit Board (PCB)
+<img width="971" height="743" alt="Screenshot 2026-06-26 000245" src="https://github.com/user-attachments/assets/02853779-7786-4a73-9b53-1997e27afc15" />
+<img width="901" height="1218" alt="Screenshot 2026-06-19 184742" src="https://github.com/user-attachments/assets/74055cd5-8187-4b33-90cc-c5799737afd4" />
+<img width="635" height="892" alt="Screenshot 2026-06-19 180719" src="https://github.com/user-attachments/assets/b1feaf1c-b280-45a0-a10d-3096bfab63ef" />
+
+
+
+#  Schematic
+<img width="1135" height="802" alt="Screenshot 2026-06-20 071409" src="https://github.com/user-attachments/assets/4cb8c0be-a65d-4fc0-900d-11ed79619b9e" />
+
+# CAD
+<img width="1048" height="717" alt="Screenshot 2026-06-20 013928" src="https://github.com/user-attachments/assets/cbfb144e-bc22-42ce-9304-baab9ddb0db8" />
+<img width="1357" height="750" alt="Screenshot 2026-06-20 013915" src="https://github.com/user-attachments/assets/ee37f271-5a66-4c06-9d9b-6f265bb73e56" />
+<img width="532" height="639" alt="Screenshot 2026-06-20 014014" src="https://github.com/user-attachments/assets/a207c6df-bf49-47ed-b726-340ad69b32f7" />
+<img width="953" height="875" alt="Screenshot 2026-06-20 013951" src="https://github.com/user-attachments/assets/53e9352d-ee8c-4115-8e5f-156219ecaee2" />
+<img width="901" height="511" alt="Screenshot 2026-06-20 013946" src="https://github.com/user-attachments/assets/4e2b0890-cb41-4b7c-aa72-2057185514b1" />
+<img width="1032" height="737" alt="Screenshot 2026-06-20 013938" src="https://github.com/user-attachments/assets/f7d45607-529d-45dd-9afe-58fbaca4b5bd" />
 
 <h1 align="center">The Features</h1>
 </div>
 
 1. **6 Programmable Keys**: Features 6 Cherry MX Red linear mechanical switches for smooth, fast, and customizable keystrokes (copy/paste, media navigation, macro strings, etc.).
 2. **Rotary Encoder**: Includes a built-in KY-040 rotary encoder with a push-button function, perfect for controlling system volume, zooming, or scrolling through timelines.
-3. **Custom PCB**: A clean, purpose-built printed circuit board routing the switches and encoder directly to the RP2040-Zero.
+3. **Custom PCB**: A printed circuit board routing the switches and encoder directly to the RP2040-Zero while looking beautiful with a custom silkscreen designs.
 4. **RP2040-Zero Brains**: Powered by the compact Raspberry Pi RP2040-Zero microcontroller, ensuring fast response times and easy programmability.
 5. **3D Printed Enclosure**: A custom-designed two-part (top and bottom) FDM 3D-printed case to keep the electronics safe and look great on a desk.
 
 <div align="center">   
- 
-# Repository Contents
 
-| Path | What it contains |
-| --- | --- |
-| [`3D_PRINTS`](https://github.com/Ragh7av/Macropad/tree/main/3D_PRINTS) | Editable CAD/STL files for 3D printing the top and bottom enclosure halves |
-| [`ASSEMBLY`](https://github.com/Ragh7av/Macropad/tree/main/ASSEMBLY) | Files related to the mechanical assembly of the macropad |
-| [`BOM`](https://github.com/Ragh7av/Macropad/tree/main/BOM) | Bill of materials details and cost breakdowns |
-| [`FIRMWARE`](https://github.com/Ragh7av/Macropad/tree/main/FIRMWARE) | Firmware code (C++/CircuitPython/KMK) to program the keys and encoder |
-| [`GERBERS`](https://github.com/Ragh7av/Macropad/tree/main/GERBERS) | Ready-to-manufacture Gerber files for fabricating the PCB |
-| [`IMAGES`](https://github.com/Ragh7av/Macropad/tree/main/IMAGES) | Photos and screenshots of the project |
-| [`PCB`](https://github.com/Ragh7av/Macropad/tree/main/PCB) | KiCad schematic and PCB layout files |
-| [`ZINE`](https://github.com/Ragh7av/Macropad/tree/main/ZINE) | Project zine documentation |
 
 </div>
 
@@ -53,6 +74,8 @@ So I spend a lot of time at my desk doing coding, editing, and general productiv
 4. PBT DSA Blank Keycaps for MX Switches (x6)
 5. Custom Printed Circuit Board (PCB)
 6. 3D Printed Case (Top and Bottom halves)
+
+
 
 # Bill of Materials
 
@@ -66,9 +89,6 @@ So I spend a lot of time at my desk doing coding, editing, and general productiv
 | Case bottom half (at 40% infill) | 1 | ₹159 | ₹159 | ₹49.5 | ₹208.5 |
 | Case top half (at 40% infill) | 1 | ₹90 | ₹90 | ₹49.5 | ₹139.5 |
 | **Subtotal** | | | **₹2519** | **₹197** | **₹2716** |
-
-#  Schematic
-<img width="1135" height="802" alt="Screenshot 2026-06-20 071409" src="https://github.com/user-attachments/assets/4cb8c0be-a65d-4fc0-900d-11ed79619b9e" />
 
 
 
