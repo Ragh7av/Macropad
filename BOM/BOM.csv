@@ -1,1 +1,9 @@
-
+Component Name,Quantity,Price (INR),Total Cost (INR),Shipping (INR),Total Price (INR)
+"PCB (Robu PCB Manufacturing)",1,180,900,49,949
+"Keycaps for MX keys (ATORSE 12Pcs Blank)",6,52.25,627,Free,627
+"Cherry MX RED mechanical keys",6,44.9,449,Free,449
+"Raspberry Pi RP2040 Zero",1,235,235,24.5,259.5
+"KY-040 Rotary encoder",1,59,59,24.5,83.5
+"Case bottom half (at 40% infill)",1,159,159,49.5,208.5
+"Case top half (at 40% infill)",1,90,90,49.5,139.5
+Subtotal,,,2519,197,2716
