@@ -1,7 +1,8 @@
 <h1 align="center">Macropad</h1> 
 <div align="center">         
 <p align="center">
-        <img width="901" height="511" alt="Screenshot 2026-06-20 013946" src="https://github.com/user-attachments/assets/0823a802-4e49-4903-9cd2-da801dc07f28" />
+        <img width="1227" height="609" alt="Screenshot 2026-06-27 155121" src="https://github.com/user-attachments/assets/d8b0f3bc-8874-4e3c-9044-efc332e90c6e" />
+
 
 A custom 6-key custom macropad with a rotary encoder, Cherry MX red mechanical switches, a custom PCB, and a 3D-printed case to take your workflow to the next level.
 </p>
@@ -114,7 +115,6 @@ So I spend a lot of time at my desk doing coding, editing, and general productiv
 6) Test the keys and encoder on your computer to ensure all keystrokes register. 
 7) Assemble the PCB into the 3D-printed shell, pop on your keycaps, and secure everything together!
 
-*Hurrahh!! You replicated the Macropad!*
 
 ## Firmware setup
  - Connect your RP2040-Zero to your computer via USB-C.
