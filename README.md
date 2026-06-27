@@ -56,6 +56,12 @@ So I spend a lot of time at my desk doing coding, editing, and general productiv
 <img width="953" height="875" alt="Screenshot 2026-06-20 013951" src="https://github.com/user-attachments/assets/53e9352d-ee8c-4115-8e5f-156219ecaee2" />
 <img width="901" height="511" alt="Screenshot 2026-06-20 013946" src="https://github.com/user-attachments/assets/4e2b0890-cb41-4b7c-aa72-2057185514b1" />
 <img width="1032" height="737" alt="Screenshot 2026-06-20 013938" src="https://github.com/user-attachments/assets/f7d45607-529d-45dd-9afe-58fbaca4b5bd" />
+<img width="1798" height="781" alt="Screenshot 2026-06-27 155041" src="https://github.com/user-attachments/assets/62463172-0e9e-4b96-8994-6021f477530d" />
+<img width="1227" height="609" alt="Screenshot 2026-06-27 155121" src="https://github.com/user-attachments/assets/1da81f90-5371-44bd-80c1-6bbdd56ea7ce" />
+<img width="1254" height="816" alt="Screenshot 2026-06-27 155108" src="https://github.com/user-attachments/assets/e74e0d2b-6d97-42ce-b235-ac23a1aa176e" />
+<img width="1545" height="909" alt="Screenshot 2026-06-27 155052" src="https://github.com/user-attachments/assets/adc22e6f-5ccc-4e17-941a-ac8ecf0fac14" />
+
+
 
 <h1 align="center">The Features</h1>
 </div>
