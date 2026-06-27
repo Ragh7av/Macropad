@@ -5,7 +5,7 @@
 
 A custom 6-key custom macropad with a rotary encoder, Cherry MX red mechanical switches, a custom PCB, and a 3D-printed case to take your workflow to the next level.
 </p>
-
+https://cad.onshape.com/documents/96bc1078680b64831b101746/w/834816f7826d3f1ee40a2d83/e/93c4e7053cae44b7b10a563c?renderMode=0&uiState=6a3fa3953d8bda3797197edf
 <h1 align="center">Overview</h1>
         
 <p align="center">This project is a custom desktop macropad built around the RP2040-Zero. It includes 6 Cherry MX Red mechanical switches for satisfying tactile sounds while clocking, a KY-040 rotary encoder for volume or scroll control, a custom-designed PCB, and a sleek 3D-printed two-part enclosure. 
