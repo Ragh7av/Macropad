@@ -41,7 +41,8 @@ So I spend a lot of time at my desk doing coding, editing, and general productiv
 # Printed Circuit Board (PCB)
 <img width="971" height="743" alt="Screenshot 2026-06-26 000245" src="https://github.com/user-attachments/assets/02853779-7786-4a73-9b53-1997e27afc15" />
 <img width="901" height="1218" alt="Screenshot 2026-06-19 184742" src="https://github.com/user-attachments/assets/74055cd5-8187-4b33-90cc-c5799737afd4" />
-<img width="635" height="892" alt="Screenshot 2026-06-19 180719" src="https://github.com/user-attachments/assets/b1feaf1c-b280-45a0-a10d-3096bfab63ef" />
+<img width="973" height="893" alt="Screenshot 2026-06-19 184433" src="https://github.com/user-attachments/assets/c8626fb0-c2ce-4ac2-ad08-aa1cf306ee88" />
+
 
 
 
