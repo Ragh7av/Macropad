@@ -1,7 +1,8 @@
 <h1 align="center">Macropad</h1> 
 <div align="center">         
 <p align="center">
-        <img width="901" height="511" alt="Screenshot 2026-06-20 013946" src="https://github.com/user-attachments/assets/0823a802-4e49-4903-9cd2-da801dc07f28" />
+        <img width="1227" height="609" alt="Screenshot 2026-06-27 155121" src="https://github.com/user-attachments/assets/6d557070-477f-4478-b6bc-b9d7981f9a5a" />
+
 
 A custom 6-key custom macropad with a rotary encoder, Cherry MX red mechanical switches, a custom PCB, and a 3D-printed case to take your workflow to the next level.
 </p>
