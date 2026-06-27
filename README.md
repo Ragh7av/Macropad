@@ -5,7 +5,7 @@
 
 A custom 6-key custom macropad with a rotary encoder, Cherry MX red mechanical switches, a custom PCB, and a 3D-printed case to take your workflow to the next level.
 </p>
-https://cad.onshape.com/documents/96bc1078680b64831b101746/w/834816f7826d3f1ee40a2d83/e/93c4e7053cae44b7b10a563c?renderMode=0&uiState=6a3fa3953d8bda3797197edf
+
 <h1 align="center">Overview</h1>
         
 <p align="center">This project is a custom desktop macropad built around the RP2040-Zero. It includes 6 Cherry MX Red mechanical switches for satisfying tactile sounds while clocking, a KY-040 rotary encoder for volume or scroll control, a custom-designed PCB, and a sleek 3D-printed two-part enclosure. 
@@ -34,15 +34,10 @@ https://cad.onshape.com/documents/96bc1078680b64831b101746/w/834816f7826d3f1ee40
 
 So I spend a lot of time at my desk doing coding, editing, and general productivity tasks. I frequently need quick access to specific shortcuts, media controls, and repetitive keystrokes that are tedious to execute on a standard keyboard. I created this project  to solve these problems and help myself get supercalifragilisticexpialidocious in building super cool hardware things while optimizing my workflow. 
 
-
-# Zine 
-<img width="972" height="1498" alt="Zine" src="https://github.com/user-attachments/assets/b50946db-bb31-41ac-9980-1292ca70d2d9" />
-
 # Printed Circuit Board (PCB)
 <img width="971" height="743" alt="Screenshot 2026-06-26 000245" src="https://github.com/user-attachments/assets/02853779-7786-4a73-9b53-1997e27afc15" />
 <img width="901" height="1218" alt="Screenshot 2026-06-19 184742" src="https://github.com/user-attachments/assets/74055cd5-8187-4b33-90cc-c5799737afd4" />
-<img width="973" height="893" alt="Screenshot 2026-06-19 184433" src="https://github.com/user-attachments/assets/c8626fb0-c2ce-4ac2-ad08-aa1cf306ee88" />
-
+<img width="635" height="892" alt="Screenshot 2026-06-19 180719" src="https://github.com/user-attachments/assets/b1feaf1c-b280-45a0-a10d-3096bfab63ef" />
 
 
 
@@ -56,12 +51,6 @@ So I spend a lot of time at my desk doing coding, editing, and general productiv
 <img width="953" height="875" alt="Screenshot 2026-06-20 013951" src="https://github.com/user-attachments/assets/53e9352d-ee8c-4115-8e5f-156219ecaee2" />
 <img width="901" height="511" alt="Screenshot 2026-06-20 013946" src="https://github.com/user-attachments/assets/4e2b0890-cb41-4b7c-aa72-2057185514b1" />
 <img width="1032" height="737" alt="Screenshot 2026-06-20 013938" src="https://github.com/user-attachments/assets/f7d45607-529d-45dd-9afe-58fbaca4b5bd" />
-<img width="1798" height="781" alt="Screenshot 2026-06-27 155041" src="https://github.com/user-attachments/assets/62463172-0e9e-4b96-8994-6021f477530d" />
-<img width="1227" height="609" alt="Screenshot 2026-06-27 155121" src="https://github.com/user-attachments/assets/1da81f90-5371-44bd-80c1-6bbdd56ea7ce" />
-<img width="1254" height="816" alt="Screenshot 2026-06-27 155108" src="https://github.com/user-attachments/assets/e74e0d2b-6d97-42ce-b235-ac23a1aa176e" />
-<img width="1545" height="909" alt="Screenshot 2026-06-27 155052" src="https://github.com/user-attachments/assets/adc22e6f-5ccc-4e17-941a-ac8ecf0fac14" />
-
-
 
 <h1 align="center">The Features</h1>
 </div>
